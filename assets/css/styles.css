@@ -125,6 +125,7 @@ header img {
     border-radius: 12px;
     padding: 30px 60px;
     margin: 15px 0px;
+    cursor: pointer;
 }
 
     .btn-information:hover {
