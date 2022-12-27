@@ -104,15 +104,15 @@ header img {
 
 .day-buy {
     display: flex;
-
 }
 
 .img-days {
     margin: 0 0 20px 60px;
+    width: 55%;
 }
 
 .day-buy img {
-    width: 125px;
+    width: 140px;
 }
 
 .btn-information {
@@ -124,8 +124,7 @@ header img {
     border: none;
     border-radius: 12px;
     padding: 30px 60px;
-    margin-left: 100px;
-    margin-top: 15px;
+    margin: 15px 0px;
 }
 
     .btn-information:hover {
