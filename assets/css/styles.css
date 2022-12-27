@@ -3,11 +3,22 @@
     padding: 0;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     background-color: #000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 50px 100px;
     color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    width: 60vw;
+    margin: auto;
 }
 
 header {
@@ -24,63 +35,66 @@ header img {
     display: flex;
 }
 
-main {
+.info {
     background-color: #514988;
-    width: 45%;
-    height: 400px;
+    width: 46%;
+    padding: 30px 40px;
 }
 
 .information-title {
     color: #F3C61F;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
-    margin: 20px 0;
+    margin-bottom: 15px;
 }
 
 .information-subtitle {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 40px;
 }
 
 .information-text {
-    padding: 0 50px;
     text-align: center;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
 }
 
-aside {
+.section-countdown {
     background-color: #fff;
-    width: 55%;
+    width: 54%;
 }
 
 #time {
     color: #514988;
     display: flex;
-    font-size: 30px;
-    gap: 30px;
-    margin: 15px 0 0 20px;
+    font-size: 32px;
+    gap: 25px;
+    margin: 15px 20px 0 20px;
 }
 
 .text-time {
     color: #E33881;
     text-transform: uppercase;
+    font-size: 19px;
     font-weight: bold;
     margin-left: 20px;
 }
 
-aside video {
-    width: 500px;
-    margin: 15px 0 0 20px;
+.section-countdown video {
+    width: 98%;
+    margin: 30px 6px 0 6px;
 }
 
 .section-confirmation {
     background-color: #fff;
     color: #F3C61F;
+    font-size: 20px;
 } 
 
 .confirmation-text {
@@ -102,16 +116,16 @@ aside video {
 }
 
 .btn-information {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
     background-color: #514988;
     color: #fff;
     border: none;
     border-radius: 12px;
-    padding: 30px 65px;
-    margin-left: 80px;
-    margin-top: 20px;
+    padding: 30px 60px;
+    margin-left: 100px;
+    margin-top: 15px;
 }
 
     .btn-information:hover {
