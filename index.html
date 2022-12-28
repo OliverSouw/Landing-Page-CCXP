@@ -43,13 +43,41 @@
         <h4 class="confirmation-text">Ainda dá tempo de garantir o seu, mas corre!</h4>
         <div class="day-buy">
             <div class="img-days">
-                <img id="quinta" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" src="assets/img/quinta.svg" alt="">
-                <img id="sexta" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" src="assets/img/sexta.svg" alt="">
-                <img id="sabado" onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" src="assets/img/sabado.svg" alt="">
-                <img id="domingo" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" src="assets/img/domingo.svg" alt="">
+                <img 
+                    id="quinta" 
+                    onclick="selectCard('#quinta')"
+                    onmouseover="highlightCard('#quinta')" 
+                    onmouseout="highlightCard('#quinta')" 
+                    src="assets/img/quinta.svg" 
+                    alt=""
+                >
+                <img 
+                    id="sexta" 
+                    onclick="selectCard('#sexta')"
+                    onmouseover="highlightCard('#sexta')" 
+                    onmouseout="highlightCard('#sexta')" 
+                    src="assets/img/sexta.svg" 
+                    alt=""
+                >
+                <img 
+                    id="sabado"
+                    onclick="selectCard('#sabado')" 
+                    onmouseover="highlightCard('#sabado')" 
+                    onmouseout="highlightCard('#sabado')" 
+                    src="assets/img/sabado.svg" 
+                    alt=""
+                >
+                <img 
+                    id="domingo" 
+                    onclick="selectCard('#domingo')"
+                    onmouseover="highlightCard('#domingo')" 
+                    onmouseout="highlightCard('#domingo')" 
+                    src="assets/img/domingo.svg" 
+                    alt=""
+                >
             </div>
             <div class="btn">
-                <button class="btn-information">Garanta o seu!</button>
+                <button onclick="showSelectedCards()" class="btn-information">Garanta o seu!</button>
             </div>
         </div>
     </section>
