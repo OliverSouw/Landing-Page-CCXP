@@ -131,3 +131,8 @@ header img {
     .btn-information:hover {
         color: #F3C61F;
     }
+
+.card-highlight {
+    box-shadow: 5px 5px 10px 5px #999;
+    border-radius: 20px;
+}
