@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    width: 60vw;
+    min-height: 85vh;
+    margin: auto;
+    background-color: #fff;
+}
+
+header {
+    background-color: #FFD900;
+    display: flex;
+    padding: 20px 40px;
+}
+
+header img {
+    width: 125px;   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-info-text {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #514988;
+    width: 100%;
+}
+
+.section-info-text h1 {
+    text-transform: uppercase;
+    color: #F3C61F;
+    font-size: 40px;
+    text-shadow: 1px 1px 3px #201b06;
+    margin-bottom: 20px;
+}
+
+.section-info-text p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.section-form {
+    text-align: center;
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #ccc;
+    border-radius: 30px;
+    width: 40%;
+}
+
+.section-form p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.section-form p span {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #F3C61F;
+    text-shadow: 1px 1px 2px #201b06;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+form input {
+    margin: 0 0 20px 0;
+    padding: 20px;
+    width: 300px;
+    background-color: #ccc;
+    border: none;
+    border-bottom: 2px solid #777;
+}
+
+form input::placeholder {
+    text-transform: uppercase;
+    color: #888;
+    font-size: 18px;
+}
+
+
+.form-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.form-checkbox input {
+    position: absolute;
+    opacity: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 5px;
+    left: -60px;
+    height: 20px;
+    width: 20px;
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+}
+
+.form-checkbox:hover input ~ .checkmark {
+    background-color: #999;
+}
+  
+.form-checkbox input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+  
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+
+.form-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.form-checkbox .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 3px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.form-checkbox-text {
+    font-size: 14px;
+    position: relative;
+    left: -30px;
+}
+
+form button {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #514988;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    width: 200px;
+    padding: 15px 15px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.btn-information {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #514988;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 30px;
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    left: 480px;
+}
+
+    form button:hover,
+    .btn-information:hover {
+        color: #F3C61F;
+    }

@@ -51,7 +51,7 @@ function addKeyboardEventListeners() {
 
 addKeyboardEventListeners();
 
-function selectCard(selector) {
+selectCard = (selector) => {
     var element = document.querySelector(selector)
     
     element.classList.toggle('card-selected');
@@ -59,6 +59,8 @@ function selectCard(selector) {
     else ingressos.push(selector);
 }
 
-function showSelectedCards() {
-    if (ingressos.length > 0) alert('Ingressos Selecionados:' + ingressos);
+showSelectedCards = () => {
+    if (ingressos.length > 0) {
+        window.location.href = 'confirmation.html';
+    }
 }

@@ -18,7 +18,9 @@ body {
 
 .card {
     width: 60vw;
+    min-height: 85vh;
     margin: auto;
+    background-color: #fff;
 }
 
 header {
@@ -124,7 +126,7 @@ header img {
     border: none;
     border-radius: 12px;
     padding: 30px 60px;
-    margin: 15px 0px;
+    margin: 15px 0;
     cursor: pointer;
 }
 
@@ -140,4 +142,8 @@ header img {
 .card-selected {
     box-shadow: inset 5px 5px 10px 5px #999;
     border-radius: 20px;
+}
+
+#sabado {
+    filter: grayscale(1);
 }
